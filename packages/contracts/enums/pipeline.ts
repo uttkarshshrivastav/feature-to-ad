@@ -1,0 +1,15 @@
+export type PipelineStage =
+  | 'source-resolution'
+  | 'diff-analysis'
+  | 'summary-checkpoint'
+  | 'local-environment'
+  | 'authentication'
+  | 'capture'
+  | 'page-reading'
+  | 'capture-review'
+  | 'refinement'
+  | 'narration'
+  | 'narration-review'
+  | 'assembly'
+  | 'final-approval'
+  | 'output';
